@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
 
-public final class PlanetBundleUtil {
+public final class ResourceBundleUtil {
 
 
     public static Map<String, String> getBundleProperties(String fileName) {
