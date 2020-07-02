@@ -16,8 +16,9 @@ import java.util.Map;
 public class GravityAccelerationApp {
 
     public static void main(String[] args) {
+
         ApplicationContext context = Application.run("com.nix",
-                new HashMap<>(Map.of(PlanetService.class, EarthService.class, AbstractBuilder.class, EarthBuilder.class)));
+                new HashMap<>(Map.of(PlanetService.class, MarsService.class, AbstractBuilder.class, MarsBuilder.class)));
         PlanetReporter planetReporter = context.getObject(PlanetReporter.class);
         AbstractBuilder dataBuilder = context.getObject(AbstractBuilder.class);
         dataBuilder.build();
