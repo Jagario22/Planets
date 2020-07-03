@@ -1,10 +1,11 @@
-package com.nix.view.impl;
+package com.nix.service.impl;
 
 import com.nix.annotation.Autowired;
+import com.nix.annotation.Service;
 import com.nix.service.PlanetService;
-import com.nix.view.PlanetReporter;
+import com.nix.service.PlanetReporter;
 
-
+@Service
 public class PlanetReporterImpl implements PlanetReporter {
 
     @Autowired

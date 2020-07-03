@@ -1,14 +1,12 @@
 package com.nix;
 
 import com.nix.builder.AbstractBuilder;
-import com.nix.builder.impl.EarthBuilder;
 import com.nix.builder.impl.MarsBuilder;
 import com.nix.config.Application;
 import com.nix.config.ApplicationContext;
 import com.nix.service.PlanetService;
-import com.nix.service.impl.EarthService;
 import com.nix.service.impl.MarsService;
-import com.nix.view.PlanetReporter;
+import com.nix.service.PlanetReporter;
 
 import java.util.HashMap;
 import java.util.Map;
